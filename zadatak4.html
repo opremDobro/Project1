@@ -1,0 +1,60 @@
+<html>
+<head>
+	<title>Registracija</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	</head>
+<body>
+<h1><font color="#0066FF">Produženje registracije</font></h1>
+<p>Na ovoj stranici možete obaviti produženje registracije Vašeg automobila.</br>Molimo vas da popunite sledeći formular.</p>
+<form action="zadatak2a.html">
+	<table border="1" bgcolor="#EAEAEA">
+		<tr>		
+			<th colspan="2"><font color="#0066FF">Produženje registracije</font></th>
+		</tr>
+		<tr bgcolor="#D3D3D3">
+			<td>Ime:</td>
+			<td><input type="text" name="Ime" value=""></td>
+		</tr>
+		<tr bgcolor="#ECECEC">
+			<td>Prezime:</td>
+			<td><input type="text" name="Prezime" value="" autofocus></td>
+		</tr>
+		<tr bgcolor="#D3D3D3">
+			<td>JMBG:</td>
+			<td><input type="text" name="JMBG" value="" required></td>
+		</tr>
+		<tr bgcolor="#ECECEC">
+			<td>Marka vozila:</td>
+			<td>
+				<input list="models" name="models">
+				<datalist id="models">
+	  				<option value="Mercedes">
+	  				<option value="Peugeot">
+	  				<option value="Renault">
+				</datalist>
+
+			</td>
+		</tr>
+		<tr bgcolor="#D3D3D3">
+			<td>Tip vozila:</td>
+			<td><input type="text" name="Tip vozila" value=""></td>
+		</tr>
+		<tr bgcolor="#ECECEC">
+			<td>Boja vozila:</td>
+			<td><input type="color" name="boja_vozila"></td>
+		</tr>
+		<tr bgcolor="#D3D3D3">
+			<td>Registarska oznaka:</td>
+			<td><input type="text" name="Registarska oznaka" value=""></td>
+		</tr>
+		<tr bgcolor="#ECECEC">
+			<td>Datum poslednje registracije:</td>
+			<td><input type="date" name="dat_pos_reg" value=""></td>
+		</tr>
+		<tr bgcolor="#D3D3D3">
+			<td colspan="2" align="center"><input type="submit" value="Pošalji"> </td>
+		</tr>
+	</table>
+</form>
+<p>U gornjem combo box-u kao stavnke nalaze se sledeće vrednosti: <i>Mercedes, Peugeot i </br>Renault.</i></p>
+</html>
